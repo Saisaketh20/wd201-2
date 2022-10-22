@@ -31,7 +31,7 @@ http.createServer((request,response)=>{
             response.end();
             break
         case "/registration":
-            response.write(filecontent)
+            response.write(reg)
             response.end();
             break
         default:
